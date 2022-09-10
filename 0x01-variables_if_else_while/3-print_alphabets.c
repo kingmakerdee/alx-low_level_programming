@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - entry point
  *
- * Return:always return 0
+ * Return:always 0
  *
- * prints alphabet in lowercase
+ * prints alphabet in lowercase and uppercase
  *
  */
 int main(void)
@@ -13,6 +13,8 @@ int main(void)
 	char a;
 
 	for (a = 'a'; a <= 'z' ; a++)
+		putchar(a);
+	for (a = 'A'; a <= 'Z'; a++)
 		putchar(a);
 	putchar('\n');
 	return (0);
