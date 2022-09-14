@@ -2,7 +2,8 @@
 #include "main.h"
 
 /**
- * print_to_98 - prints all natural nums from n to 98
+ * print_to_98 - prints all natural nums from n to 98,
+ * follwed by a new line
  * @n: print from this number
  *
  *
