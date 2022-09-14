@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_times_table - prints n times table beginning with 0
+ * times_table - prints n times table beginning with 0
  * @n: number to be multiplied
  *
  * Return: 0
  */
-void print_times_table(int n)
+void times_table(int n)
 {
 	int i, j, k;
 
