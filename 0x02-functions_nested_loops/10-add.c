@@ -1,15 +1,20 @@
 #include "main.h"
 
 /**
- * adds two integers and returns result
+ * add - adds two integers and returns result
  *
- * return sum of a and sum of b
+ * @a: int to be added to b
+ * @b: int to be added to a
+ *
+ * Return: (c) sum of a + b
  *
  */
 int add(int a, int b)
 {
+	int a;
+	int b;
 	int c;
 
-	c = a + b;
+	c = (a + b);
 	return (c);
 }
