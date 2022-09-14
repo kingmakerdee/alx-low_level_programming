@@ -4,7 +4,6 @@
  * times_table - prints n times table beginning with 0
  * @n: number to be multiplied
  *
- * Return: 0
  */
 void times_table(int n)
 {
