@@ -5,7 +5,7 @@
  * @n: number to be multiplied
  *
  */
-void print_times_table(void)
+void print_times_table(int n)
 {
 	int i, j, k;
 
