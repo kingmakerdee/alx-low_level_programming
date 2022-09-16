@@ -1,5 +1,10 @@
 #ifndef _MAIN_H_
 #define _MAIN_H_
+/**
+ * print_number - prints an integer
+ * @n: integer to be printed
+ */
+void print_number(int n);
 /** _putchar -writes the char c to standard output
  * @c: the character to print
  * Return: on success 1
